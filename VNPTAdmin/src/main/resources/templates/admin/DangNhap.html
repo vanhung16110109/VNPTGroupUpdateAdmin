@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)https://chukyso.info/admin -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="https://chukyso.info/favicon.ico">
+
+    <title>SES - Đăng nhập hệ thống</title>
+	<link rel="canonical" href="https://www.wrappixel.com/templates/materialpro/">
+    <!-- Bootstrap Core CSS -->
+    <link href="/DangNhap/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/DangNhap/style.css" rel="stylesheet">
+    
+    <link href="/DangNhap/fontawesome-all.css" rel="stylesheet">
+	<link href="/DangNhap/simple-line-icons.css" rel="stylesheet">
+	<link href="/DangNhap/weather-icons.min.css" rel="stylesheet">
+	<link href="/DangNhap/linea.css" rel="stylesheet">
+	<link href="/DangNhap/themify-icons.css" rel="stylesheet">
+	<link href="/DangNhap/flag-icon.min.css" rel="stylesheet">
+	<link href="/DangNhap/materialdesignicons.min.css" rel="stylesheet">
+	<link href="/DangNhap/css" rel="stylesheet">
+	<link href="/DangNhap/spinners.css" rel="stylesheet">
+	<link href="/DangNhap/animate.css" rel="stylesheet">
+    
+    <!-- You can change the theme colors from here -->
+    <link href="/DangNhap/blue.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+	<link href="/DangNhap/style-util.css" rel="stylesheet">
+	<link href="/DangNhap/style-admin.css" rel="stylesheet">
+	<link href="/DangNhap/style-admin-custom.css" rel="stylesheet">
+	<link href="/DangNhap/style.custom.css" rel="stylesheet">
+	<link href="/DangNhap/alertify.min.css" rel="stylesheet">
+	
+	<!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="/DangNhap/jquery.min.js.download"></script>
+    
+    <!-- Alertify -->
+    <script src="/DangNhap/alertify.min.js.download"></script>
+    
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="/DangNhap/popper.min.js.download"></script>
+    <script src="/DangNhap/bootstrap.min.js.download"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="/DangNhap/jquery.slimscroll.js.download"></script>
+    <!--Wave Effects -->
+    <script src="/DangNhap/waves.js.download"></script>
+    <!--Menu sidebar -->
+    <script src="/DangNhap/sidebarmenu.js.download"></script>
+    <!--stickey kit -->
+    <script src="/DangNhap/sticky-kit.min.js.download"></script>
+    <script src="/DangNhap/jquery.sparkline.min.js.download"></script>
+    <!--Custom JavaScript -->
+    <script src="/DangNhap/customs.js.download"></script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="/DangNhap/jQuery.style.switcher.js.download"></script>
+    
+    <script src="/DangNhap/web-client-utility.js.download"></script>
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader" style="display: none;">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle> </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+	<section id="wrapper" class="login-register login-sidebar" style="background-color: #848d95;">
+		<div class="login-box card">
+            <div class="card-body">
+                <form class="form-horizontal form-material authform" id="loginform" action="https://chukyso.info/admin/login/authenticate" method="post" enctype="application/x-www-form-urlencoded"><input type="hidden" name="_csrf" value="2d2d34a5-b3a7-4cbf-91eb-12d6150970c7">
+                    <a href="javascript:void(0)" class="text-center db"><img src="/DangNhap/logo-ses-new.jpg" alt="Home"></a>
+                    <h3 class="box-title m-b-20 m-t-20 text-uppercase font-bold text-center">Đăng nhập</h3>
+			<div class="form-group ">
+				<div class="col-xs-12">
+					<input name="j_username" class="form-control" type="text" required="" placeholder="Tên đăng nhập" autocomplete="given-name"> 
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-xs-12">
+					<input name="j_password" class="form-control" type="password" required="" placeholder="Mật khẩu" autocomplete="new-password" aria-autocomplete="list">
+				</div>
+			</div>
+                    <div class="form-group captcha">
+				<div class="d-flex no-block align-items-center">
+					<div class="p-t-0 col-6 p-l-0 p-r-0">
+						<img class="pos-a centerY" alt="" id="idImageCap" style="width: auto;" src="data:image/jpg;base64, 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">
+					</div>
+					<div class="p-l-5 col-6 p-l-0 p-r-0">
+						<input type="text" class="form-control text-center fw-700" id="j_captcha" name="j_captcha" required="" placeholder="Mã kiểm tra" maxlength="10" autocomplete="off"> 
+					</div>
+				</div>
+			</div>
+                    <div class="form-group">
+                        <div class="d-flex no-block align-items-center">
+                            
+                            <div class="ml-auto">
+                                <a href="javascript:void(0)" id="to-recover" class="text-muted"><i class="fa fa-lock m-r-5"></i> Quên mật khẩu?</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group text-center m-t-20">
+                        <div class="col-xs-12">
+                            <button class="btn btn-info btn-lg btn-block text-uppercase waves-effect waves-light login p-t-4 p-b-4" type="submit">Đăng nhập</button>
+                        </div>
+                    </div>
+                    
+                    
+                </form>
+                
+                <script>
+			    ROOT_PATH = '';
+				_csrf_value = '2d2d34a5-b3a7-4cbf-91eb-12d6150970c7';_csrf_name = '_csrf';
+				clearTimeout(timer);
+			    </script>
+                <script>
+                $(document).ready(function(event) {
+                	refreshCaptcha($('.authform').find('#idImageCap'));
+                	setTimeout(function(){
+        				$('.authform').find('input[name="j_username"], input[name="j_password"], input[name="j_captcha"]').prop('readonly', false);
+       				}, 1000);
+                	
+                	$('.authform').find('#idImageCap, #btChangeCaptcha').click(function(event) {
+    					event.preventDefault();/* event.stopPropagation(); */
+    					refreshCaptcha($('.authform').find('#idImageCap'));
+	    			});
+                	
+                	$('.authform').find("button.login").click(function (event) {
+                		event.preventDefault();/* event.stopPropagation(); */
+        				var dataLogin = $(".authform").serializeObject();
+        				
+        				var _obj = this;
+        				$(_obj).prop('disabled', true);
+        				var $form = $('form.authform');
+        				var _action = $form.attr('action');
+        				$.ajax({
+        					type: "POST",
+        					datatype: "json",
+        					url: _action,
+        					data: dataLogin,
+        					beforeSend: function(req) {
+        						initAjaxJsonRequest(req);
+        			        	showLoading();
+        					},
+        					success:function(res, textStatus, xhr) {
+        						$(_obj).prop('disabled', false);
+        						refreshCaptcha($('.authform').find('#idImageCap'));
+        						$('.authform').find('input[name="j_captcha"]').val('');
+        						
+        						hideLoading();
+        						if(res) {
+        							if(res.errorCode == 0) {
+        								location.href= ROOT_PATH + '/admin/main';
+        							}else{
+        								alertDLSuccess(createObjectError(res).html(), function(){});
+        							}
+        						}else{
+        							alertDLSuccess('unknown error!!!', function(){});
+        							hideLoading();
+        						}
+        						
+        						
+        					},
+        					error:function (xhr, ajaxOptions, thrownError){
+        						refreshCaptcha($('.authform').find('#idImageCap'));
+        						$('.authform').find('input[name="j_captcha"]').val('');
+        						$(_obj).prop('disabled', false);
+        						alertDLSuccess(xhr.status + " - " + xhr.responseText, function(){});
+        			            hideLoading();
+        			        }
+        				});
+        				return false;
+                	});
+                	
+                });
+                </script>
+            </div>
+        </div>
+    </section>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    
+
+
+</body></html>

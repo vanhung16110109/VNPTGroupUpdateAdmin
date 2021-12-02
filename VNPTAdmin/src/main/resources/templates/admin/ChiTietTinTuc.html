@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://chukyso.info/admin/main/news/init -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" class="k-webkit k-webkit96"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>SES - Tin tức</title>
+	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="https://chukyso.info/favicon.ico">
+    
+    
+	
+    <!-- Bootstrap Core CSS -->
+    <link href="/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="/ChiTietTinTuc/style.css" rel="stylesheet">
+    
+    <!-- You can change the theme colors from here -->
+    <link href="/ChiTietTinTuc/blue.css" id="theme" rel="stylesheet">
+    <link href="/ChiTietTinTuc/materialdesignicons.min.css" id="theme" rel="stylesheet">
+    <link href="/ChiTietTinTuc/themify-icons.css" id="theme" rel="stylesheet">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+	<link href="/ChiTietTinTuc/alertify.min.css" rel="stylesheet">
+	
+	<link href="/ChiTietTinTuc/kendo.common.min.css" rel="stylesheet">
+	<link href="/ChiTietTinTuc/kendo.rtl.min.css" rel="stylesheet">
+	<link href="/ChiTietTinTuc/kendo.mobile.all.min.css" rel="stylesheet">
+	<link href="/ChiTietTinTuc/all.css" rel="stylesheet">
+	
+	<link href="/ChiTietTinTuc/select2.min.css" rel="stylesheet">
+	
+	<link href="/ChiTietTinTuc/jquery.datetimepicker.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="/ChiTietTinTuc/zTreeStyle.css" type="text/css">
+	
+	<link href="/ChiTietTinTuc/sumoselect.min.css" rel="stylesheet">
+	
+	<!-- using notification -->
+	<link href="/ChiTietTinTuc/jquery.toast.css" rel="stylesheet">
+	
+	<link href="/ChiTietTinTuc/style.custom.css" rel="stylesheet">
+	
+	<link href="/ChiTietTinTuc/style-util.css" rel="stylesheet">
+	<link href="/ChiTietTinTuc/style-admin.css" rel="stylesheet">
+	<link href="/ChiTietTinTuc/css-mobile.css" rel="stylesheet">
+	<link href="/ChiTietTinTuc/style-admin-custom.css" rel="stylesheet">
+	
+	<link href="/ChiTietTinTuc/style-fullscreen-modals.css" rel="stylesheet">
+	<link href="/ChiTietTinTuc/jquery-ui.min.css" rel="stylesheet">
+
+	<link href="/ChiTietTinTuc/main.css" rel="stylesheet">
+	<link href="/ChiTietTinTuc/all-styles.css" rel="stylesheet">
+	
+	<!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="/ChiTietTinTuc/jquery.min.js.download"></script>
+    <script src="/ChiTietTinTuc/jquery-migrate-3.1.0.min.js.download"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="/ChiTietTinTuc/popper.min.js.download"></script>
+    <script src="/ChiTietTinTuc/bootstrap.min.js.download"></script>    
+    
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="/ChiTietTinTuc/jquery.slimscroll.js.download"></script>
+    <!--Wave Effects -->
+    <script src="/ChiTietTinTuc/waves.js.download"></script>
+    <!--Menu sidebar -->
+    <script src="/ChiTietTinTuc/sidebarmenu.js.download"></script>
+    <!--stickey kit -->
+    <script src="/ChiTietTinTuc/sticky-kit.min.js.download"></script>
+    <script src="/ChiTietTinTuc/jquery.sparkline.min.js.download"></script>
+    <!--Custom JavaScript -->
+<!--     <script th:src="@{/css-admin/js/custom.min.js(v=0.5)}"></script> -->
+    <script src="/ChiTietTinTuc/customs.js.download"></script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+<!--     <script th:src="@{/css-admin/plugins/styleswitcher/jQuery.style.switcher.js}"></script> -->
+    
+	<script src="/ChiTietTinTuc/alertify.min.js.download"></script>
+	
+	<script src="/ChiTietTinTuc/kendo.all.min.js.download"></script>
+	<script src="/ChiTietTinTuc/console.js.download"></script>
+	<script src="/ChiTietTinTuc/select2.full.min.js.download"></script>
+	
+	<script type="text/javascript" src="/ChiTietTinTuc/jquery.ztree.core.js.download"></script>
+	<script type="text/javascript" src="/ChiTietTinTuc/jquery.ztree.excheck.js.download"></script>
+	
+	<script src="/ChiTietTinTuc/jquery.datetimepicker.full.js.download"></script>
+	
+	<script src="/ChiTietTinTuc/base64.js.download"></script>
+	<script type="text/javascript" src="/ChiTietTinTuc/jquery.tmpl.min.js.download"></script>
+	<script src="/ChiTietTinTuc/jquery.customupload.js.download"></script>
+	
+	<!-- FILE UPLOAD -->
+	<script src="/ChiTietTinTuc/jquery.ui.widget.js.download"></script>
+	<script src="/ChiTietTinTuc/jquery.iframe-transport.js.download"></script>
+	<script src="/ChiTietTinTuc/jquery.fileupload.js.download"></script>
+	<!-- END FILE UPLOAD -->
+	
+<!-- 	<script src="https://cdn.ckeditor.com/ckeditor5/19.0.0/classic/ckeditor.js"></script> -->
+<!-- 	<script src="https://cdn.ckeditor.com/4.8.0/full-all/ckeditor.js"></script> -->
+<!-- 		<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script> -->
+	
+	<script type="text/javascript" src="/ChiTietTinTuc/tinymce.min.js.download"></script>
+	<!-- using notification -->
+	<script src="/ChiTietTinTuc/jquery.toast.js.download"></script>
+	
+	<!-- SUMO -->
+	<script type="text/javascript" src="/ChiTietTinTuc/jquery.sumoselect.min.js.download"></script>
+	<!-- numeral -->
+	<script type="text/javascript" src="/ChiTietTinTuc/numeral.min.js.download"></script>
+	<script type="text/javascript" src="/ChiTietTinTuc/jquery-ui.min.js.download"></script>
+	
+	<script src="/ChiTietTinTuc/web-client-utility.js.download"></script>
+	<script src="/ChiTietTinTuc/plugin.sign.crm.js.download"></script>
+		
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style><link rel="stylesheet" type="text/css" id="u0" href="/ChiTietTinTuc/skin.min.css"></head>
+<body class="fix-header card-no-border logo-center">
+	 <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader" style="display: none;"><svg class="circular" viewBox="25 25 50 50"><circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle> </svg></div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+		<!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+        	<nav class="navbar top-navbar navbar-expand-md navbar-light">
+				<!-- ============================================================== -->
+				<!-- toggle and nav items -->
+				<!-- ============================================================== -->
+				<ul class="navbar-nav mt-md-0 navbar-nav__menu">
+				<!-- This is  -->
+					<li class="nav-item">
+						<a class="nav-link nav-toggler text-muted waves-effect waves-dark" href="javascript:void(0)">
+						<i class="mdi mdi-chevron-double-right"></i></a>
+					</li>
+	            <!-- ============================================================== -->
+				</ul>
+				<!-- ============================================================== -->
+				<!-- Logo -->
+				<!-- ============================================================== -->
+				<div class="navbar-header" style="width: auto; position: unset;">
+	               	<a class="navbar-brand">
+						<!-- Logo text -->
+						<div>
+	                    	<!-- Light Logo text -->    
+							<img src="/ChiTietTinTuc/logo-ses-new.jpg" class="light-logo" alt="homepage">
+						</div>
+					</a>
+				</div>
+				<div class="support support-nav">
+					<div>
+						<span class="support-label">Hỗ trợ:</span> <span class="support-data">088 95 95 333</span><span class="support-label"> | </span><span class="support-label">Email:</span> <span class="support-data">support@sesgroup.vn</span>
+					</div>
+				</div>
+				<!-- ============================================================== -->
+				<!-- End Logo -->
+				<!-- ============================================================== -->
+				<div class="navbar-collapse justify-content-end navbar-right">
+					<!-- ============================================================== -->
+					<!-- ============================================================== -->
+					<!-- User profile and search -->
+					<!-- ============================================================== -->
+					<ul class="navbar-nav my-lg-0">
+						<!-- ============================================================== -->
+						<!-- Profile -->
+						<!-- ============================================================== -->
+						<li class="nav-item dropdown">
+							<a class="dropdown-toggle text-muted text-center d-flex align-items-center user-profile__show" href="https://chukyso.info/admin/main/news/init" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="line-height: 20px !important;">
+								<img src="/ChiTietTinTuc/user-icon-03.jpg" alt="user" class="profile-pic mr-2">
+							</a>
+							<div class="dropdown-menu dropdown-menu-right scale-up">
+								<ul class="dropdown-user">
+									<li><a action-link="viewProfile" class="pT-3 pB-5"><i class="ti-user"></i> Thông tin người dùng</a></li>
+									<li role="separator" class="divider m-0"></li>
+									<li><a action-link="changePassword" class="pT-5 pB-5"><i class="ti-unlock"></i> Thay đổi mật khẩu</a></li>
+									<li role="separator" class="divider m-0"></li>
+									<li><a href="https://chukyso.info/admin/logout" class="pT-5 pB-5"><i class="mdi mdi-logout"></i> Logout</a></li>
+								</ul>
+							</div>
+						</li>
+						<!-- ============================================================== -->
+					</ul>
+				</div>
+			</nav>
+		</header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <div class="left-sidebar">
+        	 <!-- Sidebar scroll-->
+        	 <div class="scroll-sidebar">
+        	 	<!-- Sidebar navigation-->
+        	 	<div class="sidebar-nav active">
+        	 		<ul id="sidebarnav" class="in">
+        	 			<span><i class="mdi mdi-chevron-double-left"></i></span>
+        	 			<div class="sidebar-nav__logo">
+							<a href="https://chukyso.info/admin/main" class="sidebar-nav__logo--link">
+								<img src="/ChiTietTinTuc/logo-ses-new.jpg" class="light-logo" alt="homepage">
+							</a>
+						</div>
+						
+						<li class="nav-small-cap">PERSONAL</li>
+						<li class="active">
+							<a class="has-arrow" href="https://chukyso.info/admin/main/news/init#" aria-expanded="false"><i class="mdi mdi-content-save-cog-outline"></i><span class="hide-menu">Nội dung </span></a>
+							<ul aria-expanded="true" class="collapse in">
+								<li class="active"> <a href="https://chukyso.info/admin/main/news/init" class="active">Quản lý tin tức</a></li>
+							</ul>
+							
+						</li>
+						
+					
+					
+        	 		</ul>
+        	 	</div>
+        	 </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper" style="min-height: 429px;">
+        	 <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid hide style-main-content" id="divSubContent02"></div>
+            <div class="container-fluid hide style-main-content" id="divSubContent" style="display: block;">
+
+	
+<div class="row page-titles">
+	<div class="col-md-12 col-12 align-self-center p-l-0">
+		<h3 class="text-themecolor m-b-0 m-t-0 text-uppercase">Chi tiết tin tức</h3>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-12">
+		<form id="fNewCRUD" name="fNewCRUD" method="post" enctype="multipart/form-data">
+			<div class="card">
+				<div class="card-body">
+					
+					<div class="form-group row m-b-6">
+						<div class="col-12">
+							<div class="row">
+								<div class="col-md-6 m-b-5">
+									<label class="col-form-label">Tiêu đề </label>
+									<input class="form-control form-control-sm" type="text" id="title" name="title" value="MỘT SỐ ĐIỂM ĐÁNG CHÚ Ý TRONG TT 78/2021/TT-BTC: QUY ĐỊNH HOÁ ĐƠN ĐIỆN TỬ TẠO TỪ MÁY TÍNH TIỀN" autocomplete="off" readonly="readonly">
+								</div>
+								<div class="col-md-6 m-b-5">
+							
+													
+								</div>
+							</div>
+						</div>
+						<div class="col-12 m-b-5">
+							<div class="row">
+								<div class="col-12">
+									<label class="col-form-label">Nội dung rút gọn </label>
+									<input class="form-control form-control-sm" type="text" id="summaryContent" name="summaryContent" value="Quy định mới về hoá đơn điện tử tạo từ máy tính tiền" autocomplete="off" readonly="readonly">
+								</div>
+							</div>
+						</div>
+						<div class="col-12 m-b-5">
+							<div class="row">
+								<div class="col-12">
+									<label class="col-form-label">Nội dung </label>
+									<textarea id="content" name="content" rows="10" class="form-control" readonly="readonly" aria-hidden="true" style="visibility: hidden; display: none;">&lt;div&gt;
+&lt;p style="text-align: center;"&gt;&lt;span style="font-family: 'times new roman', times, serif; font-size: 16pt; color: #e03e2d;"&gt;&lt;strong&gt;MỘT SỐ ĐIỂM Đ&amp;Aacute;NG CH&amp;Uacute; &amp;Yacute; TRONG TT 78/2021/TT-BTC: QUY ĐỊNH HO&amp;Aacute; ĐƠN ĐIỆN TỬ TẠO TỪ M&amp;Aacute;Y T&amp;Iacute;NH TIỀN&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: 'times new roman', times, serif; font-size: 14pt;"&gt;H&amp;oacute;a đơn điện tử được khởi tạo từ m&amp;aacute;y t&amp;iacute;nh tiền c&amp;oacute; kết nối chuyển dữ liệu với cơ quan thuế đ&amp;atilde; được nhắc đến trong Nghị định 123/2020/NĐ-CP, tuy nhi&amp;ecirc;n chưa c&amp;oacute; g&amp;igrave; cụ thể, r&amp;otilde; r&amp;agrave;ng. Theo đ&amp;oacute;, tại TT 78/2021/TT-BTC đ&amp;atilde; quy định r&amp;otilde; r&amp;agrave;ng về điều n&amp;agrave;y. Cụ thể, Điều 8 TT 78/2021/TT-BTC:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: 'times new roman', times, serif; font-size: 14pt;"&gt;&lt;strong&gt;Về nguy&amp;ecirc;n tắc&lt;/strong&gt;: Ho&amp;aacute; đơn điện tử c&amp;oacute; m&amp;atilde; của cơ quan thuế được khởi tạo từ m&amp;aacute;y t&amp;iacute;nh tiền c&amp;oacute; kết nối chuyển dữ liệu điện tử với cơ quan thuế phải đảm bảo quy định tại Điều 11 Nghị định 123/2020/NĐ-CP.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: 'times new roman', times, serif; font-size: 14pt;"&gt;&lt;strong&gt;Về đối tượng: &lt;/strong&gt;Doanh nghiệp, hộ, c&amp;aacute; nh&amp;acirc;n kinh doanh nộp thuế theo phương ph&amp;aacute;p k&amp;ecirc; khai c&amp;oacute; hoạt động cung cấp h&amp;agrave;ng h&amp;oacute;a, dịch vụ trực tiếp đến người ti&amp;ecirc;u d&amp;ugrave;ng theo m&amp;ocirc; h&amp;igrave;nh kinh doanh bao gồm:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="font-family: 'times new roman', times, serif; font-size: 14pt;"&gt;- Trung t&amp;acirc;m thương mại; si&amp;ecirc;u thị;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family: 'times new roman', times, serif; font-size: 14pt;"&gt;- B&amp;aacute;n lẻ h&amp;agrave;ng ti&amp;ecirc;u d&amp;ugrave;ng; ăn uống; nh&amp;agrave; h&amp;agrave;ng; kh&amp;aacute;ch sạn; b&amp;aacute;n lẻ thuốc t&amp;acirc;n dược;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="font-family: 'times new roman', times, serif; font-size: 14pt;"&gt;- Dịch vụ vui chơi, giải tr&amp;iacute; v&amp;agrave; c&amp;aacute;c dịch vụ kh&amp;aacute;c.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="font-family: 'times new roman', times, serif; font-size: 14pt;"&gt;&lt;strong&gt;H&amp;oacute;a đơn điện tử được tạo từ m&amp;aacute;y t&amp;iacute;nh tiền c&amp;oacute; c&amp;aacute;c nội dung sau đ&amp;acirc;y&lt;/strong&gt;:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: 'times new roman', times, serif; font-size: 14pt;"&gt;- T&amp;ecirc;n, địa chỉ, m&amp;atilde; số thuế người b&amp;aacute;n;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: 'times new roman', times, serif; font-size: 14pt;"&gt;- Th&amp;ocirc;ng tin người mua nếu người mua y&amp;ecirc;u cầu (m&amp;atilde; số định danh c&amp;aacute; nh&amp;acirc;n/m&amp;atilde; số thuế);&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: 'times new roman', times, serif; font-size: 14pt;"&gt;- T&amp;ecirc;n h&amp;agrave;ng h&amp;oacute;a, dịch vụ, đơn gi&amp;aacute;, số lượng, gi&amp;aacute; thanh to&amp;aacute;n. Trường hợp tổ chức, doanh nghiệp nộp thuế theo phương ph&amp;aacute;p khấu trừ phải ghi r&amp;otilde; gi&amp;aacute; b&amp;aacute;n chưa thuế GTGT, thuế suất thuế GTGT, tiền thuế GTGT, tổng tiền thanh to&amp;aacute;n c&amp;oacute; thuế GTGT;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: 'times new roman', times, serif; font-size: 14pt;"&gt;- Thời điểm lập h&amp;oacute;a đơn;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: 'times new roman', times, serif; font-size: 14pt;"&gt;- M&amp;atilde; của cơ quan thuế.&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</textarea><div role="application" class="tox tox-tinymce" style="visibility: hidden; height: 400px;"><div class="tox-editor-container"><div data-alloy-vertical-dir="toptobottom" class="tox-editor-header"><div role="group" class="tox-toolbar-overlord"><div role="group" class="tox-toolbar__primary"><div title="" role="toolbar" data-alloy-tabstop="true" tabindex="-1" class="tox-toolbar__group"><button aria-label="Fullscreen" title="Fullscreen" type="button" tabindex="-1" class="tox-tbtn" aria-pressed="false"><span class="tox-icon tox-tbtn__icon-wrap"><svg width="24" height="24"><path d="M15.3 10l-1.2-1.3 2.9-3h-2.3a.9.9 0 110-1.7H19c.5 0 .9.4.9.9v4.4a.9.9 0 11-1.8 0V7l-2.9 3zm0 4l3 3v-2.3a.9.9 0 111.7 0V19c0 .5-.4.9-.9.9h-4.4a.9.9 0 110-1.8H17l-3-2.9 1.3-1.2zM10 15.4l-2.9 3h2.3a.9.9 0 110 1.7H5a.9.9 0 01-.9-.9v-4.4a.9.9 0 111.8 0V17l2.9-3 1.2 1.3zM8.7 10L5.7 7v2.3a.9.9 0 01-1.7 0V5c0-.5.4-.9.9-.9h4.4a.9.9 0 010 1.8H7l3 2.9-1.3 1.2z" fill-rule="nonzero"></path></svg></span></button></div></div></div><div class="tox-anchorbar"></div></div><div class="tox-sidebar-wrap"><div class="tox-edit-area"><iframe id="content_ifr" frameborder="0" allowtransparency="true" title="Rich Text Area. Press ALT-0 for help." class="tox-edit-area__iframe" src="/ChiTietTinTuc/saved_resource.html"></iframe></div><div role="complementary" class="tox-sidebar"><div data-alloy-tabstop="true" tabindex="-1" class="tox-sidebar__slider tox-sidebar--sliding-closed" style="width: 0px;"><div class="tox-sidebar__pane-container"></div></div></div></div></div><div class="tox-statusbar"><div class="tox-statusbar__text-container"><div role="navigation" data-alloy-tabstop="true" class="tox-statusbar__path" aria-disabled="true"></div></div><div title="Resize" aria-hidden="true" class="tox-statusbar__resize-handle"><svg width="10" height="10"><g fill-rule="nonzero"><path d="M8.1 1.1A.5.5 0 119 2l-7 7A.5.5 0 111 8l7-7zM8.1 5.1A.5.5 0 119 6l-3 3A.5.5 0 115 8l3-3z"></path></g></svg></div></div><div aria-hidden="true" class="tox-throbber" style="display: none;"></div></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row"><div class="col-12"><hr style="margin: 0 0 10px 0;"></div></div>					
+					<div class="form-group row m-b-6">
+						<div class="col-6">
+							<button type="button" data-action="back" class="btn btn-sm btn-outline-secondary"><i class="mdi mdi-chevron-left"></i> Quay lại</button>
+						</div>
+						<div class="col-6 text-right">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<input type="hidden" name="_id" value="6178bf94ee758404d69eef6b">
+		</form>
+		<script type="text/javascript">
+		transactionMain = 'newDetail';
+		</script>
+		
+			
+			<script type="text/javascript">
+			$(function(){
+				disabledAllControlsInForm('fNewCRUD');
+				initTinyMCEOnlyView('content');
+				setTimeout(function(){
+					$('div[role="application"]').find('div[role="group"]').removeClass('tox-tbtn--disabled').removeAttr('aria-disabled');
+					$('div[role="application"]').find('div[role="group"]').find('button').removeClass('tox-tbtn--disabled').removeAttr('aria-disabled');
+				}, 500);
+			});
+			</script>
+		
+		<script src="/ChiTietTinTuc/newCRUD.js.download"></script>
+	</div>
+</div>
+
+</div>
+            <div class="container-fluid style-main-content" id="divMainContent" style="display: none;">
+           		<div>
+		<div class="row page-titles">
+			<div class="col-md-12 col-12 align-self-center p-l-0">
+				<h3 class="text-themecolor m-b-0 m-t-0 text-uppercase">Danh sách tin tức</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<form id="fNews" name="fNews" method="post" enctype="multipart/form-data">
+					<div class="card">
+						<div class="card-body">
+							<div class="form-group row m-b-6">
+								<div class="col-12 col-md-10 col-lg-6">
+									<div class="custom-field">
+										<input class="form-control form-control-sm custom-field__textbox" type="text" id="title" name="title" autocomplete="off">
+										<label class=" col-form-label custom-field__textbox--label">Tiêu đề</label>
+									</div>
+								</div>
+								<div class="col-12 col-md-2 col-lg-6 config-email__search">
+									<div class="row">
+										<div class=" col-8 offset-4 col-md-12 offset-md-0 col-lg-12 offset-lg-0 ">
+											<button class="btns btns-search_auto__ses hover-up__ses" data-action="search" title="Tìm kiếm" type="button"><i class="mdi mdi-file-find "></i> <span class="d-none d-md-inline">Tìm kiếm</span></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row"><div class="col-12"><hr style="margin: 0 0 10px 0;"></div></div>
+	           				<div class="row"><div class="col-12">
+	           				<div class="button-group text-right">
+	           					<button type="button" title="Thêm mới" data-action="create" data-controller="newCreate" class="btns btns-add__ses hover-up__ses"><i class="mdi mdi mdi-plus-circle-outline"> </i> <span class="d-none d-md-inline">Thêm mới</span></button>
+								<button type="button" title="Chi tiết" data-action="detail" data-controller="newDetail" class="btns btns-detail__ses hover-up__ses"><i class="mdi mdi-information-outline"> </i> <span class="d-none d-md-inline">Chi tiết</span></button>
+								<button type="button" title="Thay đổi" data-action="edit" data-controller="newEdit" class="btns btns-edit__ses hover-up__ses" disabled=""><i class="mdi mdi-tooltip-edit"> </i> <span class="d-none d-md-inline">Thay đổi</span></button>											
+								
+								<button type="button" title="Kích hoạt" data-action="active" data-controller="newActive" class="btns btns-export__ses hover-up__ses" disabled=""><i class="mdi mdi-account-check-outline"> </i> <span class="d-none d-md-inline">Kích hoạt</span></button>
+								<button type="button" title="Hủy kích hoạt" data-action="de-active" data-controller="newDeActive" class="btns btns-export__ses-2 hover-up__ses"><i class="mdi mdi-account-remove"> </i> <span class="d-none d-md-inline">Hủy kích hoạt</span></button>
+								
+								<button type="button" title="Set/Hủy tin nổi bật" data-action="hotnews" data-controller="newHotnews" class="btns btns-detail__ses hover-up__ses"><i class="mdi mdi-alert-circle-check-outline"> </i> <span class="d-none d-md-inline">Set/Hủy tin nổi bật</span></button>
+								
+								<button type="button" title="Xóa" data-action="delete" data-controller="newDelete" class="btns btns-delete__ses hover-up__ses" disabled=""><i class="mdi mdi-close-box"> </i> <span class="d-none d-md-inline">Xóa</span></button>			
+							</div>
+	           				</div></div>
+	           				
+	           				<div class="form-group row m-b-5 m-t-7">
+	           					<div class="col-12 has-min-height-grid">
+	           						<div id="grid" data-role="grid" class="k-grid k-widget" style=""><div class="k-grid-header" style="padding-right: 8px;"><div class="k-grid-header-wrap k-auto-scrollable" data-role="resizable"><table role="grid"><colgroup><col style="width:60px"><col style="width:200px"><col style="width:300px"><col style="width:100px"><col style="width:120px"><col style="width:130px"><col style="width:130px"></colgroup><thead role="rowgroup"><tr role="row"><th role="columnheader" data-field="STT" rowspan="1" data-index="0" id="c9a9413b-b5ed-4cf8-bb39-bfdbf6ea46ad" class="table-header-cell text-center k-header"><a class="k-link" href="javascript:void(0);">STT</a></th><th role="columnheader" data-field="Title" rowspan="1" data-index="1" id="2da33006-ee22-4e21-a01f-50ea6682f09b" class="table-header-cell text-center k-header" data-role="columnsorter"><a class="k-link" href="javascript:void(0);">Tiêu đề</a></th><th role="columnheader" data-field="SummaryContent" rowspan="1" data-index="2" id="c5d548be-b7ae-42c8-aab8-91bb9e9aa721" class="table-header-cell text-center k-header" data-role="columnsorter"><a class="k-link" href="javascript:void(0);">Nội dung rút gọn</a></th><th role="columnheader" data-field="HotNewsDesc" rowspan="1" data-index="3" id="0f35a0d1-1880-4d11-8ad9-7d89158ab3ab" class="table-header-cell text-center k-header" data-role="columnsorter"><a class="k-link" href="javascript:void(0);">Tin nổi bật</a></th><th role="columnheader" data-field="StatusDesc" rowspan="1" data-index="4" id="3bf0a38e-1ca5-4df1-9019-2ecd250234f4" class="table-header-cell text-center k-header" data-role="columnsorter"><a class="k-link" href="javascript:void(0);">Trạng thái</a></th><th role="columnheader" data-field="CreateDate" rowspan="1" data-index="5" id="9a636a85-2efe-41a0-a503-438229163694" class="table-header-cell k-header" style="text-align: center;" data-role="columnsorter"><a class="k-link" href="javascript:void(0);">Ngày tạo</a></th><th role="columnheader" data-field="CreateUserFullName" rowspan="1" data-index="6" id="f3d25443-bbf9-4526-b88f-927ce4e9a5ca" class="table-header-cell k-header" style="text-align: center;" data-role="columnsorter"><a class="k-link" href="javascript:void(0);">Người tạo</a></th></tr></thead></table></div></div><div class="k-grid-content"><table role="grid" data-role="selectable" class="k-selectable"><colgroup><col style="width:60px"><col style="width:200px"><col style="width:300px"><col style="width:100px"><col style="width:120px"><col style="width:130px"><col style="width:130px"></colgroup><tbody role="rowgroup"><tr data-uid="37a901a9-cd1f-46bf-93f1-2fc365a041da" role="row" class="k-state-selected" aria-selected="true"><td class="table-cell text-center" role="gridcell" title="1">1</td><td class="table-cell text-left" role="gridcell" title="MỘT SỐ ĐIỂM ĐÁNG CHÚ Ý TRONG TT 78/2021/TT-BTC: QUY ĐỊNH HOÁ ĐƠN ĐIỆN TỬ TẠO TỪ MÁY TÍNH TIỀN">MỘT SỐ ĐIỂM ĐÁNG CHÚ Ý TRONG TT 78/2021/TT-BTC: QUY ĐỊNH HOÁ ĐƠN ĐIỆN TỬ TẠO TỪ MÁY TÍNH TIỀN</td><td class="table-cell text-left" role="gridcell" title="Quy định mới về hoá đơn điện tử tạo từ máy tính tiền">Quy định mới về hoá đơn điện tử tạo từ máy tính tiền</td><td class="table-cell text-center" role="gridcell" title="N">N</td><td class="table-cell text-left" role="gridcell" title="Đã kích hoạt">Đã kích hoạt</td><td class="table-cell" style="text-align: center;" role="gridcell" title="27/10/2021 09:55:16">27/10/2021 09:55:16</td><td class="table-cell" style="text-align: left;" role="gridcell" title="Administrator">Administrator</td></tr><tr class="k-alt" data-uid="f960dd42-e03f-46a8-bf38-4de51626c479" role="row"><td class="table-cell text-center" role="gridcell" title="2">2</td><td class="table-cell text-left" role="gridcell" title="HƯỚNG DẪN XỬ LÝ HOÁ ĐƠN ĐIỆN TỬ ĐÃ GỬI CƠ QUAN THUẾ CÓ SAI SÓT">HƯỚNG DẪN XỬ LÝ HOÁ ĐƠN ĐIỆN TỬ ĐÃ GỬI CƠ QUAN THUẾ CÓ SAI SÓT</td><td class="table-cell text-left" role="gridcell" title="Điểm đáng chú ý về hoá đơn điện tử tại TT 78/2021/TT-BTC">Điểm đáng chú ý về hoá đơn điện tử tại TT 78/2021/TT-BTC</td><td class="table-cell text-center" role="gridcell" title="N">N</td><td class="table-cell text-left" role="gridcell" title="Đã kích hoạt">Đã kích hoạt</td><td class="table-cell" style="text-align: center;" role="gridcell" title="26/10/2021 09:20:45">26/10/2021 09:20:45</td><td class="table-cell" style="text-align: left;" role="gridcell" title="Administrator">Administrator</td></tr><tr data-uid="f0f14da7-74cc-4c77-85c7-e816fa62cf96" role="row"><td class="table-cell text-center" role="gridcell" title="3">3</td><td class="table-cell text-left" role="gridcell" title="HƯỚNG DẪN KÝ HIỆU MẪU SỐ, KÝ HIỆU HOÁ ĐƠN ĐIỆN TỬ THEO TT 78/2021/TT-BTC">HƯỚNG DẪN KÝ HIỆU MẪU SỐ, KÝ HIỆU HOÁ ĐƠN ĐIỆN TỬ THEO TT 78/2021/TT-BTC</td><td class="table-cell text-left" role="gridcell" title="Điểm đáng chú ý về hoá đơn điện tử tại TT 78/2021/TT-BTC">Điểm đáng chú ý về hoá đơn điện tử tại TT 78/2021/TT-BTC</td><td class="table-cell text-center" role="gridcell" title="N">N</td><td class="table-cell text-left" role="gridcell" title="Đã kích hoạt">Đã kích hoạt</td><td class="table-cell" style="text-align: center;" role="gridcell" title="25/10/2021 16:53:38">25/10/2021 16:53:38</td><td class="table-cell" style="text-align: left;" role="gridcell" title="Administrator">Administrator</td></tr><tr class="k-alt" data-uid="c512dd7d-b3e8-4337-ae9b-72fcad6764c0" role="row"><td class="table-cell text-center" role="gridcell" title="4">4</td><td class="table-cell text-left" role="gridcell" title="NGƯỜI BÁN HÀNG ĐƯỢC UỶ NHIỆM LẬP HOÁ ĐƠN ĐIỆN TỬ">NGƯỜI BÁN HÀNG ĐƯỢC UỶ NHIỆM LẬP HOÁ ĐƠN ĐIỆN TỬ</td><td class="table-cell text-left" role="gridcell" title="Điểm đáng chú ý trong Thông tư 78/2021/TT-BTC">Điểm đáng chú ý trong Thông tư 78/2021/TT-BTC</td><td class="table-cell text-center" role="gridcell" title="N">N</td><td class="table-cell text-left" role="gridcell" title="Đã kích hoạt">Đã kích hoạt</td><td class="table-cell" style="text-align: center;" role="gridcell" title="25/10/2021 15:15:06">25/10/2021 15:15:06</td><td class="table-cell" style="text-align: left;" role="gridcell" title="Administrator">Administrator</td></tr><tr data-uid="63769b43-a6f6-462e-907e-0f85dfa359ec" role="row"><td class="table-cell text-center" role="gridcell" title="5">5</td><td class="table-cell text-left" role="gridcell" title="CÓ BẮT BUỘC PHẢI SỬ DỤNG CHỮ KÝ ĐIỆN TỬ TRÊN HỢP ĐỒNG ĐIỆN TỬ KHÔNG?">CÓ BẮT BUỘC PHẢI SỬ DỤNG CHỮ KÝ ĐIỆN TỬ TRÊN HỢP ĐỒNG ĐIỆN TỬ KHÔNG?</td><td class="table-cell text-left" role="gridcell" title="Tìm hiểu quy định của pháp luật">Tìm hiểu quy định của pháp luật</td><td class="table-cell text-center" role="gridcell" title="N">N</td><td class="table-cell text-left" role="gridcell" title="Đã kích hoạt">Đã kích hoạt</td><td class="table-cell" style="text-align: center;" role="gridcell" title="21/10/2021 11:38:58">21/10/2021 11:38:58</td><td class="table-cell" style="text-align: left;" role="gridcell" title="Administrator">Administrator</td></tr><tr class="k-alt" data-uid="1e1c452d-19b5-425b-8db2-c13910d6b84b" role="row"><td class="table-cell text-center" role="gridcell" title="6">6</td><td class="table-cell text-left" role="gridcell" title="PHÂN BIỆT CHỮ KÝ SỐ TRÊN HỢP ĐỒNG ĐIỆN TỬ">PHÂN BIỆT CHỮ KÝ SỐ TRÊN HỢP ĐỒNG ĐIỆN TỬ</td><td class="table-cell text-left" role="gridcell" title="Có 3 loại chữ ký điện tử phổ biến trên hợp đồng điện tử: Chữ ký số, Chữ ký scan và Chữ ký hình ảnh">Có 3 loại chữ ký điện tử phổ biến trên hợp đồng điện tử: Chữ ký số, Chữ ký scan và Chữ ký hình ảnh</td><td class="table-cell text-center" role="gridcell" title="N">N</td><td class="table-cell text-left" role="gridcell" title="Đã kích hoạt">Đã kích hoạt</td><td class="table-cell" style="text-align: center;" role="gridcell" title="21/10/2021 08:54:20">21/10/2021 08:54:20</td><td class="table-cell" style="text-align: left;" role="gridcell" title="Administrator">Administrator</td></tr><tr data-uid="59ce25dc-1786-4380-9b47-bb85186cfd29" role="row"><td class="table-cell text-center" role="gridcell" title="7">7</td><td class="table-cell text-left" role="gridcell" title="PHÂN BIỆT CHỮ KÝ SỐ VÀ CHỮ KÝ ĐIỆN TỬ">PHÂN BIỆT CHỮ KÝ SỐ VÀ CHỮ KÝ ĐIỆN TỬ</td><td class="table-cell text-left" role="gridcell" title="Phân biệt chữ ký số và chữ ký điển tử? Đặc điểm của chữ ký điện tử">Phân biệt chữ ký số và chữ ký điển tử? Đặc điểm của chữ ký điện tử</td><td class="table-cell text-center" role="gridcell" title="N">N</td><td class="table-cell text-left" role="gridcell" title="Đã kích hoạt">Đã kích hoạt</td><td class="table-cell" style="text-align: center;" role="gridcell" title="19/10/2021 15:46:31">19/10/2021 15:46:31</td><td class="table-cell" style="text-align: left;" role="gridcell" title="Administrator">Administrator</td></tr><tr class="k-alt" data-uid="f4ecfa3d-72d4-4477-a062-a394fad5541e" role="row"><td class="table-cell text-center" role="gridcell" title="8">8</td><td class="table-cell text-left" role="gridcell" title="LỢI ÍCH KHI SỬ DỤNG CHỮ KÝ SỐ">LỢI ÍCH KHI SỬ DỤNG CHỮ KÝ SỐ</td><td class="table-cell text-left" role="gridcell" title="Lợi ích của chữ ký số mang lại cho người dùng">Lợi ích của chữ ký số mang lại cho người dùng</td><td class="table-cell text-center" role="gridcell" title="N">N</td><td class="table-cell text-left" role="gridcell" title="Đã kích hoạt">Đã kích hoạt</td><td class="table-cell" style="text-align: center;" role="gridcell" title="19/10/2021 14:36:00">19/10/2021 14:36:00</td><td class="table-cell" style="text-align: left;" role="gridcell" title="Administrator">Administrator</td></tr><tr data-uid="6b42ccaa-8155-4aaa-bbcd-a1e9c28ece55" role="row"><td class="table-cell text-center" role="gridcell" title="9">9</td><td class="table-cell text-left" role="gridcell" title="CÁC LOẠI CHỮ KÝ SỐ THÔNG DỤNG">CÁC LOẠI CHỮ KÝ SỐ THÔNG DỤNG</td><td class="table-cell text-left" role="gridcell" title="Các loại chữ ký số hiện nay: Chữ ký số USB token, chữ ký số Smartcard, chữ ký số HSM, chữ ký số từ xa.">Các loại chữ ký số hiện nay: Chữ ký số USB token, chữ ký số Smartcard, chữ ký số HSM, chữ ký số từ xa.</td><td class="table-cell text-center" role="gridcell" title="N">N</td><td class="table-cell text-left" role="gridcell" title="Đã kích hoạt">Đã kích hoạt</td><td class="table-cell" style="text-align: center;" role="gridcell" title="19/10/2021 10:25:11">19/10/2021 10:25:11</td><td class="table-cell" style="text-align: left;" role="gridcell" title="Administrator">Administrator</td></tr><tr class="k-alt" data-uid="7ca06873-651f-4111-9170-4edb26d3cafa" role="row"><td class="table-cell text-center" role="gridcell" title="10">10</td><td class="table-cell text-left" role="gridcell" title="TẦM QUAN TRỌNG CỦA CHỮ KÝ SỐ ĐỐI VỚI DOANH NGHIỆP">TẦM QUAN TRỌNG CỦA CHỮ KÝ SỐ ĐỐI VỚI DOANH NGHIỆP</td><td class="table-cell text-left" role="gridcell" title="Giá trị pháp lý và tầm quan trọng của chữ ký số đối với doanh nghiệp">Giá trị pháp lý và tầm quan trọng của chữ ký số đối với doanh nghiệp</td><td class="table-cell text-center" role="gridcell" title="N">N</td><td class="table-cell text-left" role="gridcell" title="Đã kích hoạt">Đã kích hoạt</td><td class="table-cell" style="text-align: center;" role="gridcell" title="18/10/2021 16:37:11">18/10/2021 16:37:11</td><td class="table-cell" style="text-align: left;" role="gridcell" title="Administrator">Administrator</td></tr></tbody></table></div><div class="k-pager-wrap k-grid-pager k-widget k-floatwrap" data-role="pager"><a href="https://chukyso.info/admin/main/news/init#" title="Trang đầu" class="k-link k-pager-nav k-pager-first k-state-disabled" data-page="1" tabindex="-1"><span class="k-icon k-i-seek-w">Trang đầu</span></a><a href="https://chukyso.info/admin/main/news/init#" title="Trang trước" class="k-link k-pager-nav k-state-disabled" data-page="1" tabindex="-1"><span class="k-icon k-i-arrow-w">Trang trước</span></a><ul class="k-pager-numbers k-reset"><li class="k-current-page"><span class="k-link k-pager-nav">1</span></li><li><span class="k-state-selected">1</span></li><li><a tabindex="-1" href="https://chukyso.info/admin/main/news/init#" class="k-link" data-page="2">2</a></li></ul><a href="https://chukyso.info/admin/main/news/init#" title="Trang sau" class="k-link k-pager-nav" data-page="2" tabindex="-1"><span class="k-icon k-i-arrow-e">Trang sau</span></a><a href="https://chukyso.info/admin/main/news/init#" title="Trang cuối" class="k-link k-pager-nav k-pager-last" data-page="2" tabindex="-1"><span class="k-icon k-i-seek-e">Trang cuối</span></a><span class="k-pager-sizes k-label"><span title="" class="k-widget k-dropdown k-header" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="" aria-disabled="false" aria-readonly="false" aria-busy="false" aria-activedescendant="f3b65151-8ffb-4c9d-8368-7b56c2902280" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span unselectable="on" class="k-input">10</span><span unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s">select</span></span></span><select data-role="dropdownlist" style="display: none;"><option value="5">5</option><option value="10">10</option><option value="20">20</option><option value="50">50</option><option value="100">100</option></select></span></span><a href="https://chukyso.info/admin/main/news/init#" class="k-pager-refresh k-link" title="Tải lại trang"><span class="k-icon k-i-refresh">Tải lại trang</span></a><span class="k-pager-info k-label"><span class="text-lowercase">1-10/17</span></span></div></div>
+	           					</div>
+	           				</div>
+						</div>
+					</div>
+				</form>
+				<script type="text/javascript">
+					var _gridMain = $('#fNews').find('#grid');
+				</script>
+				<script src="/ChiTietTinTuc/news.js.download"></script>
+				
+			</div>
+		</div>
+	</div>
+           	</div>
+        </div>
+        <footer class="footer">© SES - v1.0</footer>
+           
+		<!-- ============================================================== -->
+		<!-- End footer -->
+		<div class="overlay-wrap"></div>
+        
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <script>
+    $.datetimepicker.setLocale('vi');
+    ROOT_PATH = '';
+	_csrf_value = '2d2d34a5-b3a7-4cbf-91eb-12d6150970c7';_csrf_name = '_csrf';
+	/*REMOVE ITEM NOT RIGHT*/
+	var lis = $('ul#sidebarnav').children('li');
+	lis.each(function( index, obj ) {
+	    if($(obj).children('ul').length > 0 && $(obj).children('ul').children('li').length == 0){
+	        $(obj).remove();
+	    }
+	});
+	
+	$(function() {
+		// Set height mobile
+		var cardHeight = function () {
+			var topOffset = 80
+			var height = (window.innerHeight > 0 ? window.innerHeight : this.screen.height) - 1;
+			height = height - topOffset;
+			$('.card-wrapper__ses').css('min-height', height + 'px');
+		}
+        $(window).ready(cardHeight);
+        $(window).on('resize', cardHeight);
+        // End set height mobile
+        
+// 		$("header.topbar").find('li a[action-link]').click(function (event) {
+// 			var _actionLink = $(this).attr('action-link');
+
+// 			switch (_actionLink) {
+// 			case 'viewProfile':
+// 				showPopupWithURLAndData(ROOT_PATH + '/Main?transaction=common&method=viewProfile', {}, true);
+// 				break;
+// 			case 'changePassword':
+// 				showPopupWithURLAndData(ROOT_PATH + '/Main?transaction=common&method=showChangePassword', {}, true);
+// 				break;
+// 			default:
+// 				break;
+// 			}
+			
+// 			return;
+// 		});
+
+		$(document).on("submit", "form", function(e){
+		    e.preventDefault();e.stopPropagation();return false;
+		});
+		
+	});
+    </script>
+
+<div class="k-list-container k-popup k-group k-reset" data-role="popup" style="position: absolute; height: auto; display: none;"><div class="k-group-header" style="display:none"></div><div unselectable="on" style="overflow: auto; position: relative; height: auto;"><ul unselectable="on" class="k-list k-reset" tabindex="-1" aria-hidden="true" aria-live="off" data-role="staticlist" role="listbox"><li tabindex="-1" role="option" unselectable="on" class="k-item" data-offset-index="0">5</li><li tabindex="-1" role="option" unselectable="on" class="k-item k-state-selected k-state-focused" aria-selected="true" data-offset-index="1" id="f3b65151-8ffb-4c9d-8368-7b56c2902280">10</li><li tabindex="-1" role="option" unselectable="on" class="k-item" data-offset-index="2">20</li><li tabindex="-1" role="option" unselectable="on" class="k-item" data-offset-index="3">50</li><li tabindex="-1" role="option" unselectable="on" class="k-item" data-offset-index="4">100</li></ul></div></div><div class="tox tox-silver-sink tox-tinymce-aux" style="position: relative;"></div></body></html>
